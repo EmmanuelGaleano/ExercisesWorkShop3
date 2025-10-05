@@ -27,7 +27,7 @@ class Program
             option = Console.ReadLine()?.Trim().ToLower();
             Console.WriteLine();
 
-        } while (option == "s"); // Loop while the user types "s"
+        } while (option == "s"); // Loop while the user types "s"    
 
         Console.WriteLine("Programa finalizado.");
     }
