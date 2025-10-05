@@ -17,7 +17,7 @@ class Program
             string input = Console.ReadLine();
 
             // Validate the bridge
-            bool valid = validator.Validate(input);
+            bool valid = validator.Validate(input); 
 
             // Show the result in Spanish
             Console.WriteLine(valid ? "VALIDO" : "INVALIDO");
